@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestras Anécdotas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fce4ec; 
+            color: #333;
+            padding: 40px 20px;
+        }
+        
+        .contenedor {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto; 
+        }
+        
+        h1 {
+            color: #d81b60;
+            text-align: center;
+        }
+
+        /* Estilo para los botones desplegables de las anécdotas */
+        details {
+            background-color: #f8bbd0;
+            margin: 15px 0;
+            border-radius: 10px;
+            overflow: hidden; /* Importante para que la animación se vea ordenada */
+            transition: all 0.3s ease;
+        }
+
+        summary {
+            padding: 15px;
+            font-weight: bold;
+            color: #ad1457;
+            cursor: pointer;
+            list-style: none; /* Quita la flecha por defecto */
+            font-size: 1.1em;
+        }
+        
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        /* El texto de la anécdota que se revela al hacer clic */
+        .contenido-anecdota {
+            padding: 0 15px 15px 15px;
+            color: #333;
+            background-color: #ffffff;
+            border-top: 1px dashed #f8bbd0;
+            text-align: left;
+        }
+
+        /* Botón para volver al inicio */
+        .btn-volver {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #d81b60;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-volver:hover {
+            background-color: #ad1457;
+        }
+        .foto-amiga {
+    width: 250px; 
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    </style>
+</head>
+<body>
+
+    <div class="contenedor"> 
+        <h1>✨ Nuestras Anécdotas ✨</h1>
+        <p style="text-align: center;">Aquí guardamos los momentos más divertidos y locos que hemos vivido juntas. Haz clic en un título para leer la historia:</p>
+        
+ <!-- Anécdota 1 (Desplegable) -->
+        <details>
+            <summary>📖 El día que todo empezó </summary>
+            <div class="contenido-anecdota">
+                <p>Hay fechas que se quedan grabadas para siempre, y para nosotras fue el 14 de julio de 2024.
+                 Aunque cada una ya se conocía por separado, ese día el destino y una final de la Copa 
+                 América decidió juntarnos a las cuatro por primera vez.
+                 Todo se dio gracias a Linda Reyes y Valeria Domínguez, quienes  presentaron a Wendy
+                 Marulanda y Linda Tamayo. Nos reunimos en Garde House con la ilusión de vivir una gran fiesta del fútbol y ver a la Selección alzar la copa.
+                 Aunque el partido terminó con un resultado triste y nos quedamos achicopadas, el universo nos tenía una victoria camuflada: ese día perdimos la final,pero nos ganamos las unas a las otras para siempre. ¡Y así nació este parche!
+
+                </p>
+                <img src="primero.png" alt="Foto de Valeria Dominguez" class="foto-amiga">
+            </div>
+        </details>
+
+        <!-- Anécdota 1 (Desplegable) -->
+        <details>
+            <summary>📖 Inaguración en la Casa de Wendy </summary>
+            <div class="contenido-anecdota">
+                <p>Una borrachera ni la HPTA.</p>
+                <img src="mometo1.jpg" alt="Foto de Valeria Dominguez" class="foto-amiga">
+            </div>
+        </details>
+
+        <!-- Anécdota 2 (Desplegable) -->
+        <details>
+            <summary>📖 Título de la anécdota 2 </summary>
+            <div class="contenido-anecdota">
+                <p>Escribe aquí otra anécdota diferente. Puedes copiar y pegar este bloque cuantas veces quieras si tienen más historias.</p>
+            </div>
+        </details>
+
+        <!-- Botón para regresar a la página principal -->
+        <div style="text-align: center;">
+            <a href="prueba1.html" class="btn-volver">⬅ Volver al inicio</a>
+        </div>
+        
+    </div> 
+
+</body>
+</html>
